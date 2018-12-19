@@ -1,0 +1,137 @@
+# Logfile created on 2018-12-16 01:04:35 -0200 by logger.rb/56438
+D, [2018-12-16T01:12:01.720522 #6668] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-12-16T01:12:01.720522 #6668] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-12-16T01:12:03.230328 #6668] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-12-16T01:12:03.230328 #6668] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-12-16T01:12:04.079130 #6668] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-12-16T01:12:04.079130 #6668] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-12-16T01:12:04.079130 #6668] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-12-16T01:12:04.377531 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-12-16T01:12:04.533531 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.156s
+D, [2018-12-16T01:12:04.566132 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:12:04.739733 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.173601s
+D, [2018-12-16T01:12:04.739733 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:12:04.895733 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.156s
+D, [2018-12-16T01:12:05.051733 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x224e230 @seconds=1544929916, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x17985684 type=generic data=0xb11dffbde16776cb...>, "keyId"=>6580651442418221058}...
+D, [2018-12-16T01:12:05.209134 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.157401s
+D, [2018-12-16T01:12:40.918862 #6668] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-12-16T01:12:40.919862 #6668] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-12-16T01:12:41.965667 #6668] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-12-16T01:12:41.965667 #6668] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-12-16T01:12:42.612070 #6668] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-12-16T01:12:42.612070 #6668] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-12-16T01:12:42.612070 #6668] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-12-16T01:12:42.986471 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-12-16T01:12:43.174072 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.187601s
+D, [2018-12-16T01:12:43.205272 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:12:43.393473 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.188201s
+D, [2018-12-16T01:12:43.393473 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:12:43.581673 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.1882s
+D, [2018-12-16T01:12:43.770274 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x38de040 @seconds=1544929956, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x29814720 type=generic data=0x7be8e941ac4041da...>, "keyId"=>6580651442418221058}...
+D, [2018-12-16T01:12:43.957475 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.187201s
+D, [2018-12-16T01:13:02.621268 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x29829708 type=uuid data=0x5ee3aa42848a49bb...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x38d40c8 @seconds=1544929963, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x29794308 type=generic data=...
+D, [2018-12-16T01:13:02.808469 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.187201s
+D, [2018-12-16T01:13:02.964469 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x40596264 type=uuid data=0x280fbdf0f6e7455a...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x224e230 @seconds=1544929916, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x17985684 type=generic data=...
+D, [2018-12-16T01:13:03.120469 #6668] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.156s
+D, [2018-12-16T01:14:27.445740 #6608] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-12-16T01:14:27.445740 #6608] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-12-16T01:14:28.341563 #6608] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-12-16T01:14:28.341563 #6608] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-12-16T01:14:29.092765 #6608] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-12-16T01:14:29.092765 #6608] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-12-16T01:14:29.092765 #6608] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-12-16T01:14:29.407766 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-12-16T01:14:29.579366 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.1716s
+D, [2018-12-16T01:14:29.610566 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:14:29.772567 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.162001s
+D, [2018-12-16T01:14:29.772567 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:14:29.939568 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.167001s
+D, [2018-12-16T01:14:30.095568 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x4e3b700 @seconds=1544930065, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x41016096 type=generic data=0xf9e93cc7652f6832...>, "keyId"=>6580651442418221058}...
+D, [2018-12-16T01:14:30.251568 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.156s
+D, [2018-12-16T01:15:06.263128 #6608] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-12-16T01:15:06.263128 #6608] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-12-16T01:15:08.097133 #6608] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-12-16T01:15:08.097133 #6608] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-12-16T01:15:08.711737 #6608] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-12-16T01:15:08.711737 #6608] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-12-16T01:15:08.711737 #6608] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-12-16T01:15:09.025738 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-12-16T01:15:09.181738 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.156s
+D, [2018-12-16T01:15:09.214938 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:15:09.387539 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.172601s
+D, [2018-12-16T01:15:09.387539 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:15:09.543539 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.156s
+D, [2018-12-16T01:15:09.741542 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x389f658 @seconds=1544930101, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x29686476 type=generic data=0x9e6e700e8dda1613...>, "keyId"=>6580651442418221058}...
+D, [2018-12-16T01:15:09.913142 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.1716s
+D, [2018-12-16T01:15:28.290277 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x29700660 type=uuid data=0x0c554baeb7244edd...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x389f658 @seconds=1544930101, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x29686476 type=generic data=...
+D, [2018-12-16T01:15:28.446277 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.156s
+D, [2018-12-16T01:15:28.602277 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x40979352 type=uuid data=0xbe8f76e02f4946af...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x4e3b700 @seconds=1544930065, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x41016096 type=generic data=...
+D, [2018-12-16T01:15:28.758278 #6608] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.156001s
+D, [2018-12-16T01:23:03.779695 #6952] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-12-16T01:23:03.779695 #6952] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-12-16T01:23:04.610898 #6952] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-12-16T01:23:04.610898 #6952] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-12-16T01:23:05.406702 #6952] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-12-16T01:23:05.408702 #6952] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-12-16T01:23:05.409702 #6952] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-12-16T01:23:05.723103 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-12-16T01:23:05.879104 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.156001s
+D, [2018-12-16T01:23:05.910304 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:23:06.070304 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.16s
+D, [2018-12-16T01:23:06.070304 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:23:06.638906 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.568602s
+D, [2018-12-16T01:23:06.794906 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x5096ec8 @seconds=1544930578, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x42252036 type=generic data=0x60aa9f09032d396f...>, "keyId"=>6580651442418221058}...
+D, [2018-12-16T01:23:06.950906 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.156s
+D, [2018-12-16T01:23:32.303539 #6952] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-12-16T01:23:32.303539 #6952] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-12-16T01:23:32.998941 #6952] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-12-16T01:23:32.998941 #6952] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-12-16T01:23:33.732543 #6952] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-12-16T01:23:33.732543 #6952] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-12-16T01:23:33.732543 #6952] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-12-16T01:23:34.489345 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-12-16T01:23:34.645345 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.156s
+D, [2018-12-16T01:23:34.676545 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:23:35.284149 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.607604s
+D, [2018-12-16T01:23:35.284149 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:23:35.439951 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.155802s
+D, [2018-12-16T01:23:35.595951 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x52d55a8 @seconds=1544930607, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x43428468 type=generic data=0x8f62d311bbfedd6a...>, "keyId"=>6580651442418221058}...
+D, [2018-12-16T01:23:35.751951 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.156s
+D, [2018-12-16T01:23:54.404404 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x43638792 type=uuid data=0xfaf4c807b9f54114...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x52d55a8 @seconds=1544930607, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x43428468 type=generic data=...
+D, [2018-12-16T01:23:54.560404 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.156s
+D, [2018-12-16T01:23:54.716405 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x42223524 type=uuid data=0xa7f79fa82f104283...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x5096ec8 @seconds=1544930578, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x42252036 type=generic data=...
+D, [2018-12-16T01:23:54.872405 #6952] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.156s
+D, [2018-12-16T01:24:32.904665 #2536] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-12-16T01:24:32.904665 #2536] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-12-16T01:24:33.538068 #2536] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-12-16T01:24:33.538068 #2536] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-12-16T01:24:34.169069 #2536] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-12-16T01:24:34.169069 #2536] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-12-16T01:24:34.169069 #2536] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-12-16T01:24:34.609870 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-12-16T01:24:34.765870 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.156s
+D, [2018-12-16T01:24:34.797070 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:24:34.968671 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.171601s
+D, [2018-12-16T01:24:34.968671 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:24:35.127671 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.159s
+D, [2018-12-16T01:24:35.283671 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x25cc290 @seconds=1544930668, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x41246664 type=generic data=0x14092883b1275cbf...>, "keyId"=>6580651442418221058}...
+D, [2018-12-16T01:24:35.440672 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.157001s
+D, [2018-12-16T01:25:11.376149 #2536] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-12-16T01:25:11.376149 #2536] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-12-16T01:25:12.195351 #2536] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-12-16T01:25:12.195351 #2536] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-12-16T01:25:12.978155 #2536] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-12-16T01:25:12.978155 #2536] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-12-16T01:25:12.978155 #2536] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-12-16T01:25:13.292155 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-12-16T01:25:13.447556 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.156401s
+D, [2018-12-16T01:25:13.478756 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:25:13.650357 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.171601s
+D, [2018-12-16T01:25:13.650357 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-12-16T01:25:13.806357 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.156s
+D, [2018-12-16T01:25:13.965357 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x4fc9158 @seconds=1544930706, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x41830476 type=generic data=0xa1382122e1146edf...>, "keyId"=>6580651442418221058}...
+D, [2018-12-16T01:25:14.512759 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.547402s
+D, [2018-12-16T01:25:33.123003 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x41836032 type=uuid data=0x1748fd4f296049b4...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x4fc9158 @seconds=1544930706, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x41830476 type=generic data=...
+D, [2018-12-16T01:25:33.279003 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.156s
+D, [2018-12-16T01:25:33.438004 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x41177268 type=uuid data=0x9f89396ad6fb4192...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x4eba9c0 @seconds=1544930675, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x41276544 type=generic data=...
+D, [2018-12-16T01:25:33.594004 #2536] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.156s
