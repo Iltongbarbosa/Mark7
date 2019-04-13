@@ -15,7 +15,7 @@ end
 
 Quando('faço o cadastro dessa tarefa') do
   visit '/tasks'
-  sleep 5
+  sleep 7
   @tarefas_page.botao_novo.click
   @tarefas_page.adicionar.cadastrar(@nova_tarefa, @tags)
 end
@@ -38,13 +38,16 @@ end
 ## remover
 
 Dado('que tenho uma tarefa indesejada') do
-  @nova_tarefa = { nome: 'Tarefa muito boa para ser removida', data: '26/06/2018' }
-  @tags = [{ tag: 'remover' }]
-  DAO.new.remover_tarefas(@nova_tarefa[:nome])
-
   steps %(
     Quando faço o cadastro dessa tarefa
   )
+  #@tarefas_page.botao_novo.click
+  @tags = [{ tag: 'remover' }]
+  @nova_tarefa = { nome: 'Tarefa muito boa para ser removida', data: '26/06/2019' }
+  @tarefas_page.adicionar.cadastrar(@nova_tarefa, @tags)
+  
+  
+  #DAO.new.remover_tarefas(@nova_tarefa[:nome])
 end
 
 Quando('eu solicito a exclusão desta tarefa') do

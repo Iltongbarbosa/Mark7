@@ -10,3 +10,5 @@
 * Finalizar tarefa
 
 ## Sprint 1 > Login
+## Sprint 2 > Tarefas
+## Sprint 3 > Manutenção de Tarefas
